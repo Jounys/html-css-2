@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumo Capitulo 19</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 10px;
+        }
+       
+        #f1 {
+            background-image: url(imagens/pattern004.png);
+            border: 1px solid black;
+        }
+
+        #f2 {
+            border: 1px solid black;
+            background-image: url(imagens/pattern002.png);
+            background-repeat: repeat-y;
+        }
+
+        #f3 {
+            border: 1px solid black;
+            background-position: center top;
+
+        }
+
+        .f4 {
+            height: 80vh;
+            background-image: url(imagens/wallpaper002.jpg);
+            border: 1px solid black;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        #a1 {
+            background-color: white;
+            margin: 15px;
+            border: 1px solid black;
+            border-radius: 10px;
+        }
+
+        .margin {
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="f1" class="margin">
+        <h1>Usando Imagens de fundo</h1>
+        <h2>Como usar imagens de fundo no seu arquivo HTML5 e CSS3?</h2>
+        <p>
+            Para adicionar uma imagem como fundo no seu box-level, usa-se o comando <strong>background-image: url();</strong>.
+        </p>
+    </div>
+    <div id="f2" class="margin">
+        <h1>Personalização dos fundos</h1>
+        <h2>Imagens que se repetem no seu site</h2>
+        <p>
+            Usando o comando <strong>background-repeat: ;</strong>, você pode ajustar formas de repetições como: 
+            <li>repeat (vai preencher a tela se repetindo)</li>
+            <li>no-repeat (não se repetirá na tela)</li>
+            <li>repeat-x (repete nahorizontal)</li>
+            <li>repeat-y (repere na vertical)</li>
+        </p>
+    </div>
+    <div id="f3" class="margin">
+        <h1>Posicionamento</h1>
+        <h2>Como posicionar uma imagem no fundo</h2>
+        <p>
+            Para isso você precisa usar o comando <strong>background-repeat e background-position: ;</strong>. Para usar o comando <strong>background-position</strong> você pode usar as definições a seguir:
+            <li>left (esquerda)</li>
+            <li>right (direita)</li>
+            <li>top (alto/em cima)</li>
+            <li>bottom (em baixo)</li>
+            <li>center (central)</li>
+            <p>exemplo: left top, right bottom, center center</p>
+        </p>
+    </div>
+    <div class="f4" class="margin">
+        <div id="a1" class="margin">
+            <h1>Fundo Fixo</h1>
+            <h2>Como deixar a imagem fixa sem quebrar?</h2>
+            <p>Com o comando <strong>background-attachment: fixed;</strong> porem quando seu site for aberto em uma tela grande, sua imagem vai quebrar, para resolver isso é preciso usar o comando <strong>background-size: cover;</strong>.</p>
+        </div>
+    </div>
+</body>
+</html>
