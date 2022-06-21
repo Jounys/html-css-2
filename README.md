@@ -1,8 +1,8 @@
 # html-css
  
 <h1>Desafios</h1>
-<li><a href="https://jounys.github.io/html-css-2/desafios/d010/android.html">Android</a></li>
-<li><a href="https://jounys.github.io/html-css-2/desafios/d012/index.html">Cordel Moderno</a></li>
+<li><a href="https://jounys.github.io/html-css/desafios/d010/android.html">Android</a></li>
+<li><a href="https://jounys.github.io/html-css/desafios/d012/index.html">Cordel Moderno</a></li>
 
 <h1>Exercícios</h1>
 <li><a href="https://jounys.github.io/html-css/exercicios/ex016/cor03.html">Executar o exercício 016</a></li>
