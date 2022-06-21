@@ -25,4 +25,4 @@
 <li><a href="https://jounys.github.io/html-css/exercicios/ex023/resumo.html">exercício 023</a></li>
 
 <h2>Meu Site</h2>
-<li><a href="https://jounys.github.io/html-css-2/site/">Site</a></li>
+<li><a href="https://jounys.github.io/html-css/site/">Site</a></li>
