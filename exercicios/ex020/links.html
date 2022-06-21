@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /* SELETORES PERSONALIZADOS
+           #  = id
+           .  = class
+           :  = pseudo-class
+           :: = pseudo-element
+           >  = clildren (filho)
+        */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: darkblue;
+        }
+
+        a:hover {
+            color: chocolate;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: yellow;
+        }
+
+        .especial {
+            background-color: rgba(104, 104, 104, 0.425);
+        }
+
+        a::before {
+            content: '♤ ';
+        }
+
+        a::after {
+            content: ' ♤';
+        }
+
+        .especial::after {
+            content: ' ♥';
+        }
+
+        .especial::before {
+            content: '♥ ';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <li><a href="https://github.com/jounys" target="_blank">Repositório GitGub</a></li>
+    <li><a href="https://www.youtube.com/channel/UCY69u9RmDye43BLAkEmZL6g" target="_blank">Canal do YouTube</a></li>
+    <li><a href="https://meusite.jounys.repl.co/" target="_blank" class="especial">Site do Jounys</a></li>
+</body>
+</html>
