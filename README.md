@@ -17,12 +17,12 @@
 </a></li>
 
 <li><a href="https://jounys.github.io/html-css/exercicios/ex021/caixa01.html">Executar o exercício 021</a></li>
-<li><a href="https://jounys.github.io/html-css-2/exercicios/ex000/">exercício 000</a></li>
-<li><a href="https://jounys.github.io/html-css-2/exercicios/ex021/caixa01.html">exercício 021.1</a></li>
-<li><a href="https://jounys.github.io/html-css-2/exercicios/ex021/caixa02.html">exercício 021.2</a></li>
-<li><a href="https://jounys.github.io/html-css-2/exercicios/ex021/caixa03.html">exercício 021.3</a></li>
-<li><a href="https://jounys.github.io/html-css-2/exercicios/ex022/resumo.html">exercício 022</a></li>
-<li><a href="https://jounys.github.io/html-css-2/exercicios/ex023/resumo.html">exercício 023</a></li>
+<li><a href="https://jounys.github.io/html-css/exercicios/ex000/">exercício 000</a></li>
+<li><a href="https://jounys.github.io/html-css/exercicios/ex021/caixa01.html">exercício 021.1</a></li>
+<li><a href="https://jounys.github.io/html-css/exercicios/ex021/caixa02.html">exercício 021.2</a></li>
+<li><a href="https://jounys.github.io/html-css/exercicios/ex021/caixa03.html">exercício 021.3</a></li>
+<li><a href="https://jounys.github.io/html-css/exercicios/ex022/resumo.html">exercício 022</a></li>
+<li><a href="https://jounys.github.io/html-css/exercicios/ex023/resumo.html">exercício 023</a></li>
 
 <h2>Meu Site</h2>
 <li><a href="https://jounys.github.io/html-css-2/site/">Site</a></li>
