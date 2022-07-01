@@ -10,7 +10,7 @@
             font-family: Arial, Helvetica, sans-serif;
         }
         table {
-            width: 500px;
+            
             border-collapse: collapse;
         }
 
@@ -20,7 +20,7 @@
             padding: 20px;
         }
 
-        th {
+        th,td {
             border: 1px solid black;
             padding: 10px;
         }
@@ -28,8 +28,18 @@
         tr:nth-child(even) {
             background-color: rgb(228, 228, 228);
         }
+
+        #container {
+            overflow-x: auto;
+        }
     </style>
 </head>
+<!--Aprendi a deixar uma tabela responsiva de forma muito facil
+usando o comando 'overflow: auto;'
+
+Fim do Capitulo 21.
+-->
+
 <body>
     <h1>Tabela em telas pequenas</h1>
     <p>
@@ -39,28 +49,126 @@
         possimus.
     </p>
      
-    <table>
-        <caption>Tabelas Responsivas</caption>
-
-        <thead>
-            <tr>
-                <th>Produto</th>
-                <th>Jan</th>
-                <th>Fev</th>
-                <th>Mar</th>
-                <th>Abr</th>
-                <th>Mai</th>
-                <th>Jun</th>
-                <th>Jul</th>
-                <th>Ago</th>
-                <th>Nov</th>
-                <th>Dez</th>
-            </tr>
-        </thead>
-        <tbody>
-            
-        </tbody>
-    </table>
+    <div id="container">
+        <table>
+            <caption>Tabelas Responsivas</caption>
+            <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>Jan</th>
+                    <th>Fev</th>
+                    <th>Mar</th>
+                    <th>Abr</th>
+                    <th>Mai</th>
+                    <th>Jun</th>
+                    <th>Jul</th>
+                    <th>Ago</th>
+                    <th>Nov</th>
+                    <th>Dez</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>TV 40°</td>
+                    <td>01</td>
+                    <td>04</td>
+                    <td>00</td>
+                    <td>00</td>
+                    <td>00</td>
+                    <td>00</td>
+                    <td>00</td>
+                    <td>00</td>
+                    <td>00</td>
+                    <td>00</td>
+        
+                </tr>
+                <tr>
+                    <td>Home Theater</td>
+                    <td>00</td>
+                    <td>00</td>
+                    <td>00</td>
+                    <td>00</td>
+                    <td>00</td>
+                    <td>00</td>
+                    <td>00</td>
+                    <td>00</td>
+                    <td>00</td>
+                    <td>00</td>
+        
+                </tr>
+                <tr>
+                    <td>Sansung Galaxy S20</td>
+                    <td>00</td>
+                    <td>00</td>
+                    <td>00</td>
+                    <td>00</td>
+                    <td>00</td>
+                    <td>00</td>
+                    <td>00</td>
+                    <td>00</td>
+                    <td>00</td>
+                    <td>00</td>
+        
+                </tr>
+                <tr>
+                    <td>iPad Mini</td>
+                    <td>00</td>
+                    <td>00</td>
+                    <td>00</td>
+                    <td>00</td>
+                    <td>00</td>
+                    <td>00</td>
+                    <td>00</td>
+                    <td>00</td>
+                    <td>00</td>
+                    <td>00</td>
+        
+                </tr>
+                <tr>
+                    <td>Plastation 4</td>
+                    <td>00</td>
+                    <td>00</td>
+                    <td>00</td>
+                    <td>00</td>
+                    <td>00</td>
+                    <td>00</td>
+                    <td>00</td>
+                    <td>00</td>
+                    <td>00</td>
+                    <td>00</td>
+        
+                </tr>
+                <tr>
+                    <td>Lava Louças</td>
+                    <td>00</td>
+                    <td>00</td>
+                    <td>00</td>
+                    <td>00</td>
+                    <td>00</td>
+                    <td>00</td>
+                    <td>00</td>
+                    <td>00</td>
+                    <td>00</td>
+                    <td>00</td>
+        
+                </tr>
+                <tr>
+                    <td>Amazon Echo</td>
+                    <td>00</td>
+                    <td>00</td>
+                    <td>00</td>
+                    <td>00</td>
+                    <td>00</td>
+                    <td>00</td>
+                    <td>00</td>
+                    <td>00</td>
+                    <td>00</td>
+                    <td>00</td>
+        
+                </tr>
+            </tbody>
+        </table>
+    </div>
     
 </body>
 </html>
