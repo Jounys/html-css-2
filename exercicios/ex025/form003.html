@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Teste de formulários</h1>
+    <form action="cadastro.js" method="get">
+        <p>
+            <label for="iNome">Nome:</label>
+            <input type="text" name="" id="iNome" required maxlength="30" placeholder="Nome Completo" autocomplete="name">
+        </p>
+        <p>
+            <label for="iMedia">Média:</label>
+            <input type="number" name="" id="iMedia" min="0" max="10" step="0.5" value="5">
+        </p>
+        <p>
+            <label for="iMes">Período letivo:</label>
+            <input type="month" name="" id="iMes">
+        </p>
+        <p>
+            <label for="iDia">Dia:</label>
+            <input type="date" name="" id="iDia">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+        <!-- Cada input pode possuir propriedades proprias
+            Ferificar exemplos acima ou a documentação
+
+            É possivel add um valor predeterminado se eu quiser com o value
+        -->
+    </form>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Teste de formulário</h1>
+    <!-- Metodo POST não aceito usando a extenção do liveServe-->
+    <form action="cadastro.php" method="" autocomplete="off">
+        <p>
+            <label for="iUsuario">Usuário:</label>
+            <input type="text" id="iUsuario" required minlength="5" size="10" placeholder="Nome de usuario">
+        </p>
+        <p>
+            <label for="iSenha">Senha:</label>
+            <input type="password" id="iSenha" required minlength="8" maxlength="15" autocomplete="current-password" placeholder="Senha">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Resetar">
+        </p>
+        <!--
+            minlength = minimo de caracteres
+            maxlength = maximo de caracteres(não deixa ultrapassar)
+
+            required = obriga o usuario a preencher o campo
+
+            autocomplete = no form liga ou desliga a sugestão de preenchimento 
+            e no input da mais opçoes
+        -->
+    </form>
+</body>
+</html>
