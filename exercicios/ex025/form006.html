@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="cadastro.js">
+        <p>
+            <label for="cor">Cor: </label>
+            <input type="color" name="" id="cor" value="#ff6874">
+        </p>
+        <p>
+
+            <label for="nivel">Nivel de satisfação: </label>
+            <input type="range" name="" id="nivel" min="0" max="10" value="2">    
+        </p>
+        <p>
+            <label for="file">File: </label>
+            <input type="file" name="" id="file">
+            <!-- mais de 3000 bytes portanto tem que usar o POST para fotos -->
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>

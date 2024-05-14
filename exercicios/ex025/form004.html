@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <style>
+        fieldset {
+            border-color: brown;
+            border-style: groove;
+            border-width: 8px;
+        }
+        legend {
+            font-family: monospace;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulários</h1>
+
+    <form action="cadastro.js" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <p>
+                <label for="iNome">Nome:</label>
+                <input type="text" name="" id="iNome" aria-hidden="true">
+            </p>
+            <p>
+                <label for="iEmail">Email:</label>
+                <input type="email" name="" id="iEmail" required autocomplete="email">
+            </p>
+            <p>
+                <label for="iTel">Telefone:</label>
+                <input type="tel" name="" id="iTel" required autocomplete="tel" pattern="^[0-9]{4}-[0-9]{4}$" placeholder="xxxx-xxxx">
+            </p>
+        </fieldset>
+        <!-- Estudar expressões regulares - RegEx  |↑| alt + 124(pipe |) alt + 92(barra invertida \)  -->
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotmulários</title>
+    <style>
+        * {
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="cadastro.js" method="get" autocomplete="on" >
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="m-sexo" value="m"> <label for="m-sexo">Masculino</label> <br>
+            <input type="radio" name="sexo" id="f-sexo" value="f"> <label for="f-sexo">Feminino</label>
+            <!-- Tipo radio - preencher 'name' com o mesmo identificador -->
+        </fieldset>
+        <fieldset>
+            <legend>Esportes Favoritos</legend>
+            <input type="checkbox" name="" id="e-fut" checked> <label for="e-fut">Futebol</label> <br>
+            <input type="checkbox" name="" id="e-bas"> <label for="e-bas">Basquete</label> <br>
+            <input type="checkbox" name="" id="e-vol"> <label for="e-vol">Volei</label> <br>
+            <input type="checkbox" name="" id="e-sur"> <label for="e-sur">Surf</label> <br>
+            <input type="checkbox" name="" id="e-ten" value="ten"> <label for="e-ten">Tênis</label> <br>
+
+            <!-- checked - já deixa preenchido -->
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
