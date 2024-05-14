@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Forms</h1>
+     <form action="cadastro.js" autocomplete="off" method="get"> 
+        <p>
+            <label for="est">Estado</label> 
+            <select name="" id="est">
+                <optgroup label="Região Sudeste">
+                    <option value="SP" selected>São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="MG">Minas Gerais</option>
+                </optgroup>
+
+                <optgroup label="Região Nordeste">
+                    <option value="MA">Maranhão</option>
+                    <option value="RE">Recife</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                </optgroup>
+            </select>
+        </p>
+
+        <p>
+            <label for="prof">Profisão: </label>
+            <input type="text" name="" id="prof" list="lisprof">
+            <!-- datalist simula um campo de seleção -->
+            <datalist id="lisprof">
+                <option value="prof">Professor</option>
+                <option value="dev">Desenvolvedor</option>
+                <option value="cont">Contador</option>
+            </datalist>
+        </p>
+
+        <p>
+            <!-- POST -->
+            <label for="msn">Mensagem: </label> <br>
+            <textarea name="" id="msn" cols="30" rows="3"></textarea>
+        </p>
+        
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+    <div id="res"></div>
+    <!-- <script src="cadastro.js"></script> -->
+</body>
+</html>

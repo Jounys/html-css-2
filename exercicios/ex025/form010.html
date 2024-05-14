@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form action="" autocomplete="on">
+        <p>
+            <label for="ano">Ano: </label>
+            <input type="number" name="" id="ano" oninput="calcIdade()">
+        </p>
+        <p>
+            <label for="idade">Idade: </label>
+            <output id="idade">0</output>
+        </p>
+        <!-- output de saida dinamica. Isso aqui é macumba -->
+    </form>
+
+    <script>
+        function calcIdade(){
+            let atual = new Date().getFullYear()
+            idade.innerHTML = Number(atual) - Number(ano.value)
+        }
+    </script>
+</body>
+</html>
